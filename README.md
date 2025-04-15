@@ -6,16 +6,16 @@ A simple chatbot web app that connects to **AWS Bedrock's Claude model** using a
 
 ## 🚀 Features
 
-- Chat with Claude AI via AWS Bedrock API
-- Simple and responsive web UI
-- Real-time messaging experience
-- Fully powered by AWS SDK for Bedrock
+- 💬 Chat with Claude AI via AWS Bedrock API  
+- 🌐 Simple and responsive web UI  
+- ⚡ Real-time messaging experience  
+- 🧠 Fully powered by AWS SDK for Bedrock  
 
 ---
 
 ## ✅ Prerequisites
 
-Before you start, ensure you have the following:
+Before you start, ensure you have the following tools and configurations:
 
 | Tool | Version | Description |
 |------|---------|-------------|
@@ -23,40 +23,21 @@ Before you start, ensure you have the following:
 | [npm](https://www.npmjs.com/) | Comes with Node.js | To install packages |
 | AWS Account | — | With Bedrock enabled |
 | AWS Bedrock Permissions | — | To access Claude model |
-| VS Code | - | - |
+| [VS Code](https://code.visualstudio.com/) | — | Recommended code editor |
 
 ---
 
 ## 🔧 Setup & Installation
 
-### Download the zip folder, unzip it, and then open it with vs code
+### 1. Download and Open the Project
 
-### 1. Install dependencies
+- Download the ZIP folder  
+- Unzip it  
+- Open the folder in **Visual Studio Code**
 
-In the root directory of the project, run the following command to install all required dependencies:
+### 2. Install Dependencies
+
+In the root directory of the project, run the following command:
 
 ```bash
 npm install
-
----
-
-## Running the App
-### Start the Node.js server by running:
-```bash
-node server
-
-----
-
-## Once the server is running, open your browser and visit the following URL:
-
-### 👉 http://localhost:3000
-
----
-
-## 🙌 Acknowledgements
-
-- [**AWS Bedrock**](https://aws.amazon.com/bedrock/) – for providing scalable access to foundational models
-- [**Anthropic Claude**](https://www.anthropic.com/) – the powerful AI assistant used in this project
-- [**Express.js**](https://expressjs.com/) – fast and minimalist web framework for Node.js
-
----
