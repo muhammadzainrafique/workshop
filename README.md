@@ -41,3 +41,15 @@ In the root directory of the project, run the following command:
 
 ```bash
 npm install
+
+
+---
+
+## ▶️ Running the App
+
+### 1. Start the Node.js Server
+
+In the root directory of the project, run the following command:
+
+```bash
+node server
