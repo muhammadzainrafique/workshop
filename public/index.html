@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Chat with AWS Bedrock</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="chat-container">
+      <header class="chat-header">
+        <h1><i class="fas fa-robot"></i> AWS Bedrock Chat</h1>
+        <p>Powered by Claude 3</p>
+      </header>
+
+      <div class="chat-messages" id="chatMessages">
+        <!-- Messages will appear here -->
+      </div>
+
+      <div class="chat-input">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="Type your message..."
+          autocomplete="off"
+        />
+        <button id="sendButton" onclick="sendMessage()">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </div>
+
+      <div class="loading" id="loadingIndicator">
+        <div class="loader"></div>
+        <span>AI is thinking...</span>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
