@@ -54,6 +54,16 @@ In the root directory of the project, run the following command:
 ```bash
 node server
 ```
+
+---
+
+## ▶️ Open in Browser
+
+Once the server is running, visit the following URL in your browser:
+```bash
+http://localhost:3000
+```
+
 ---
 ## 🙌 Acknowledgements
 
