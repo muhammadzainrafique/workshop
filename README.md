@@ -42,7 +42,7 @@ In the root directory of the project, run the following command:
 ```bash
 npm install
 
-
+```
 ---
 
 ## ▶️ Running the App
@@ -53,3 +53,12 @@ In the root directory of the project, run the following command:
 
 ```bash
 node server
+```
+---
+## 🙌 Acknowledgements
+
+- [**AWS Bedrock**](https://aws.amazon.com/bedrock/) – for providing scalable access to foundational models
+- [**Anthropic Claude**](https://www.anthropic.com/) – the powerful AI assistant used in this project
+- [**Express.js**](https://expressjs.com/) – fast and minimalist web framework for Node.js
+
+  ---
