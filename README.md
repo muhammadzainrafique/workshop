@@ -37,7 +37,7 @@ Before you start, ensure you have the following tools and configurations:
 
 ### 2. Install Dependencies
 
-In the root directory of the project, run the following command:
+In the root directory of the project, run the following command in terminal :
 
 ```bash
 npm install
@@ -49,7 +49,7 @@ npm install
 
 ### 1. Start the Node.js Server
 
-In the root directory of the project, run the following command:
+In the root directory of the project, run the following command in the terminal:
 
 ```bash
 node server
